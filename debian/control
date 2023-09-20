@@ -1,0 +1,18 @@
+Source: intltool
+Section: unknown
+Priority: optional
+Maintainer: Jackson Hansen <madjack971@bsdmail.com>
+Build-Depends: debhelper-compat (= 13), dh-autoreconf
+Standards-Version: 4.5.1
+Homepage: https://launchpad.net/intltool
+Rules-Requires-Root: no
+Vcs-Git: https://github.com/maddjack2020/intltool.git
+Vcs-Browser: https://github.com/maddjack2020/intltool
+
+Package: intltool
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: auto-generated package by debmake
+ The Intltool is an internationalization tool used for extracting translatable
+ strings from source files.
